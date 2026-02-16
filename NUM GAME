@@ -1,0 +1,12 @@
+import java.util.*;
+class NumberGame{
+public static void main(string[]args){
+int n=new Random().nextlnt(100)+1,g;
+Scanner sc=new Scanner(System.in);
+do{
+System.out.print("Guess:");
+g=sc.nextlnt();
+System.out.println(g>n?"high":g<n?"low":"correct");
+}while(g!=n);
+}
+}
