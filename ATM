@@ -1,0 +1,14 @@
+importjava.util.*;
+classATM{
+public static void main(string[]args){
+Scanner sc=new Scanner(System.in);
+int bal=10000,ch;
+do{
+System.out.println("1,deposit 2.withdrew 3.balance 4.exit");
+ch=sc.nextlnt();
+if(ch==1)bal+=sc.nextlnt();
+if(ch==2)bal-=sc.nextlnt();
+if(ch==1)System.out.println("Balance:"+bal);
+}while (ch!=4);
+}
+}
