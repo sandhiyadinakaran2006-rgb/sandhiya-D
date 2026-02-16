@@ -1,0 +1,18 @@
+import java.util.*;
+class student{
+int id:
+String name;
+Student(int i,String n){
+id=i;name=n;
+}
+}
+classStudentManagement{
+public static viod main(string[]args){
+ArrayList<student>list=new array List<>();
+list.add(new student(1,"Rahul"));
+list.add(new student(2,"Anitha"));
+
+for(student s:list)
+System.out.println(s.id+""+s.name);
+}
+}
